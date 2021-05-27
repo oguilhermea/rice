@@ -8,10 +8,11 @@
 (menu-bar-mode -1)
 (toggle-scroll-bar -1)
 (tool-bar-mode -1)
-(load-theme 'ujelly t)
 (line-number-mode 1)
 (column-number-mode 1)
-(global-display-line-numbers-mode)
+(show-paren-mode 1)
+
+(load-theme 'ujelly t)
 
 (setq backup-directory-alist `(("." . "~/.emacs.d/backups")))
 (setq inhibit-splash-screen t)
@@ -20,3 +21,4 @@
           c-basic-offset 4)
 
 (ido-mode 1)
+;; Install magit and ujelly-theme
